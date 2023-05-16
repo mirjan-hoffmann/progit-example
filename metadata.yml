@@ -1,21 +1,18 @@
 ---
-name: "Mein OER Kurs"
+name: "Pro Git"
 creator:
-  - givenName: "Max"
-    familyName: "Mustermann"
-  - givenName: "Maxi"
-    familyName: "Mustermann"
-publisher:
-  givenName: "Max"
-  familyName: "Mustermann"
+  - givenName: Scott
+    familyName: Chacon
+  - givenName: Ben
+    familyName: Straub
 keywords:
-  - "Geometrie"
-  - "Pythagoras"
-  - "Mathematik"
-description: "Skizze für einen Kurs"
+  - git
+  - book
+  - pro-git
+  - markdown
+description: Beispiel einer Markdown-Dokument-Vorlage
 inLanguage: "de"
-version: 1.0
-license: "https://creativecommons.org/share-your-work/public-domain/cc0/"
+license: https://creativecommons.org/licenses/by-nc-sa/3.0
 thumbnailUrl: http://placehold.it/100x100
-learningResourceType: "Modul"
+learningResourceType: https://w3id.org/kim/hcrt/textbook
 creativeWorkStatus: "Draft" # Incomplete, Draft, Published
