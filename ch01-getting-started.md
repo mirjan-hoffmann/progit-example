@@ -50,10 +50,7 @@ Aus diesem Grund, haben Programmierer bereits vor langer Zeit, lokale
 Versionsverwaltungssysteme entwickelt, die alle Änderungen an allen
 relevanten Dateien in einer Datenbank verwalten.
 
-<figure>
-<img src="images/local.png" alt="Local version control diagram" />
-<figcaption>Lokale Versionsverwaltung</figcaption>
-</figure>
+![Lokale Versionsverwaltung](images/local.png)
 
 Eines der populäreren Versionsverwaltungssysteme war RCS, welches auch
 heute noch mit vielen Computern ausgeliefert wird.
@@ -80,11 +77,7 @@ primary="CVS"}[]{.indexterm primary="Subversion"}[]{.indexterm
 primary="Perforce"} Diese Art von System war über viele Jahre hinweg der
 Standard für Versionsverwaltungssysteme.
 
-<figure>
-<img src="images/centralized.png"
-alt="Centralized version control diagram" />
-<figcaption>Zentrale Versionsverwaltung</figcaption>
-</figure>
+![Zentrale Versionsverwaltung](images/centralized.png)
 
 Dieser Ansatz hat viele Vorteile, besonders gegenüber lokalen
 Versionsverwaltungssystemen. Zum Beispiel weiß jeder mehr oder weniger
@@ -123,11 +116,7 @@ von jedem beliebigen Anwenderrechner zurückkopiert werden und der Server
 so wiederhergestellt werden. Jede Kopie, ein sogenannter Klon (engl.
 clone), ist ein vollständiges Backup der gesamten Projektdaten.
 
-<figure>
-<img src="images/distributed.png"
-alt="Distributed version control diagram" />
-<figcaption>Verteilte Versionsverwaltung</figcaption>
-</figure>
+![Verteilte Versionsverwaltung](images/distributed.png)
 
 Darüber hinaus können derartige Systeme hervorragend mit verschiedenen
 externen Repositorys, sogenannten Remote-Repositorys, umgehen, sodass
@@ -205,12 +194,8 @@ Informationen, die sie verwalten, als eine Reihe von Dateien an denen im
 Laufe der Zeit Änderungen vorgenommen werden (dies wird allgemein als
 *deltabasierte* Versionskontrolle bezeichnet).
 
-<figure>
-<img src="images/deltas.png"
-alt="Storing data as changes to a base version of each file" />
-<figcaption>Speichern von Daten als Änderung an einzelnen Dateien auf
-Basis einer Ursprungsdatei</figcaption>
-</figure>
+![Speichern von Daten als Änderung an einzelnen Dateien auf
+Basis einer Ursprungsdatei](images/deltas.png)
 
 Git arbeitet nicht auf diese Art und Weise. Stattdessen betrachtet Git
 seine Daten eher wie eine Reihe von Schnappschüssen eines
@@ -223,12 +208,8 @@ unveränderte Dateien nicht, sondern legt lediglich eine Verknüpfung zu
 der vorherigen Version der Datei an. Git betrachtet seine Daten eher wie
 einen **Stapel von Schnappschüssen**.
 
-<figure>
-<img src="images/snapshots.png"
-alt="Git stores data as snapshots of the project over time" />
-<figcaption>Speichern der Daten-Historie eines Projekts in Form von
-Schnappschüsse</figcaption>
-</figure>
+![Speichern der Daten-Historie eines Projekts in Form von
+Schnappschüsse](images/snapshots.png)
 
 Das ist ein wichtiger Unterschied zwischen Git und praktisch allen
 anderen Versionsverwaltungssystemen. In Git wurden daher fast alle
@@ -343,12 +324,8 @@ befinden kann: committet (engl. *committed*), geändert (engl.
 Das führt uns zu den drei Hauptbereichen eines Git-Projekts: dem
 Verzeichnisbaum, der sogenannten Staging-Area und dem Git-Verzeichnis.
 
-<figure>
-<img src="images/areas.png"
-alt="Working tree, staging area, and Git directory." />
-<figcaption>Verzeichnisbaum, Staging-Area und
-Git-Verzeichnis</figcaption>
-</figure>
+![Verzeichnisbaum, Staging-Area und
+Git-Verzeichnis](images/areas.png)
 
 Der Verzeichnisbaum ist ein einzelner Abschnitt einer Version des
 Projekts. Diese Dateien werden aus der komprimierten Datenbank im
@@ -475,10 +452,7 @@ Wenn man eine sehr aktuelle Version einsetzen möchte, kann man Git auch
 <https://git-scm.com/download/mac> findet man die jeweils aktuellste
 Version und kann sie von dort herunterladen.
 
-<figure>
-<img src="images/git-osx-installer.png" alt="Git macOS installer" />
-<figcaption>Git macOS Installationsprogramm</figcaption>
-</figure>
+![Git macOS Installationsprogramm](images/git-osx-installer.png)
 
 ### Installation unter Windows {#_installation_unter_windows}
 
