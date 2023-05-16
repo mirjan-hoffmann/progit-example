@@ -1200,7 +1200,7 @@ Reihe von Vorteilen: Eine Hosting-Site ist in der Regel schnell
 eingerichtet und in der Lage, Projekte einfach zu starten, ohne dass
 eine Serverwartung oder -überwachung erforderlich ist. Selbst wenn Sie
 Ihren eigenen Server intern einrichten und betreiben, können Sie dennoch
-eine öffentliche Hosting-Site für Ihren Open-Source-Code verwenden — es
+eine öffentliche Hosting-Site für Ihren Open-Source-Code verwenden — es
 ist im Allgemeinen einfacher für die Open-Source-Community, Sie zu
 finden und Ihnen zu helfen.
 

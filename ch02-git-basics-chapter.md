@@ -1570,7 +1570,7 @@ Die Datei `CONTRIBUTING.md` ist geändert aber wieder unstaged.
 
 Was ist, wenn Sie feststellen, dass Sie Ihre Änderungen an der Datei
 `CONTRIBUTING.md` nicht beibehalten möchten? Wie können Sie sie einfach
-rückgängig machen — sprich, sie so zurücksetzen, wie sie aussah, als Sie
+rückgängig machen — sprich, sie so zurücksetzen, wie sie aussah, als Sie
 sie zuletzt committet haben (oder ursprünglich geklont haben oder wie
 auch immer Sie es in Ihr Arbeitsverzeichnis aufgenommen haben)?
 Glücklicherweise sagt Ihnen `git status` wiederum, wie das geht. In der
