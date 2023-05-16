@@ -8,9 +8,9 @@ Dies ist eine Vorlage für offene und frei lizenzierte Texte, die ansprechende, 
 
 Mit jedem Speichern (Commit) werden die folgenden Dokumente generiert
 
-* [Kurs als Ebook](https://tibhannover.github.io/markdown-documents-template/document.epub)
-* [Kurs als PDF](https://tibhannover.github.io/markdown-documents-template/document.pdf)
-* [Kurs als HTML](https://tibhannover.github.io/markdown-documents-template/index.html)
+* [Kurs als Ebook](https://mirjan-hoffmann.github.io/progit-example/document.epub)
+* [Kurs als PDF](https://mirjan-hoffmann.github.io/progit-example/document.pdf)
+* [Kurs als HTML](https://mirjan-hoffmann.github.io/progit-example/index.html)
 
 # Nachnutzung
 
