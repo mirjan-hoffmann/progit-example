@@ -47,7 +47,7 @@ jobs:
           ls -l
           pandoc title.txt merged-document-prepared.md -f markdown -t epub3 -s -o $OUTPUT_FILENAME.epub --metadata pagetitle="$GITHUB_REPOSITORY" --webtex
           pandoc title.txt merged-document-prepared.md -f markdown -t latex --request-header User-Agent:"$GITHUB_REPOSITORY ($GITHUB_SERVER_URL/$GITHUB_REPOSITORY)" -s -o $OUTPUT_FILENAME.pdf --metadata pagetitle="$GITHUB_REPOSITORY" --webtex -V linkcolor:blue
-          pandoc title.txt merged-document-prepared.md -f markdown -t html -s -o index.html --metadata pagetitle="$GITHUB_REPOSITORY" --include-in-header=metadata.json --katex --css pandoc.css
+          pandoc title.txt merged-document-prepared.md --toc -f markdown -t html -s -o index.html --metadata pagetitle="$GITHUB_REPOSITORY" --include-in-header=metadata.json --katex --css pandoc.css
           pandoc title.txt merged-document-prepared.md -f markdown -t asciidoc -s -o $OUTPUT_FILENAME.asc --metadata pagetitle="$GITHUB_REPOSITORY" --webtex
           mkdir .public
           cp -r * .public
