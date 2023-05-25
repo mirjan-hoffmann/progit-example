@@ -10,9 +10,9 @@ keywords:
   - book
   - pro-git
   - markdown
-description: Beispiel einer Markdown-Dokument-Vorlage
+description: Beispiel einer Markdown-Dokument-Vorlage. Das Beispiel enthält Auszüge aus dem "Pro Git"-Buch.
 inLanguage: "de"
 license: https://creativecommons.org/licenses/by-nc-sa/3.0
-thumbnailUrl: http://placehold.it/100x100
+thumbnailUrl: https://raw.githubusercontent.com/progit/progit2-de/main/book/cover.png
 learningResourceType: https://w3id.org/kim/hcrt/textbook
 creativeWorkStatus: "Draft" # Incomplete, Draft, Published
